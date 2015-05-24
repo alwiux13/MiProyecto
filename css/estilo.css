@@ -1,0 +1,41 @@
+.Encabezado{
+	color: gray;
+	background-color: rgb(220,220,220);
+	height: 200px;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.Encabezado img{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.contenido{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.quienesSomos{
+	width: 150px;
+	height: 70px;
+	margin-left: 90px;
+	background-color: gray;
+	color: white;
+	-webkit-transition: background-color 0.5s;
+	-webkit-transition: -webkit-transform 0.5s;
+}
+.verde{
+	background-color: green;
+
+	-webkit-transform: scale(2);
+}
+#quienesSomosTexto{
+	color: white;
+	visibility: hidden;
+
+}
+.muestra{
+	visibility: visible !important;
+
+}
